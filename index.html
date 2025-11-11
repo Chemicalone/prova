@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+        <title>nel buio della foresta 0</title>
+    </head>
+    <body>
+        <h1>START</h1>
+        <audio autoplay loop>
+            <source src="found.mp3" type="audio/mpeg">
+        </audio> 
+        <script>
+            document.addEventListener("click", function playMusic() {
+                const audio = document.querySelector("audio");
+                audio.play();
+                document.removeEventListener("click", playMusic);
+            });
+        </script>
+        <p>Ti trovi in una foresta, ti guardi intorno, non riconosci il posto, a dire il vero non ricordi quasi nulla, chi sei?
+        quale è la tua storia? il tuo passato? le tue abbilità e caratteristiche? non lo sai, sai solo una cosa</p>
+        <p>in mezzo alla foresta c'è una capanna</p>
+        <p>dentro la capanna c'è un mostro</p>
+        <p><strong>il tuo compito è uccidere il mosto</strong></p>
+        <button type="button" onclick="window.location.href='wip.html';">Next</button>
+    </body>
+</html>
