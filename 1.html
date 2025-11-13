@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Nel buio della foresta 1</title>
+    </head>
+    <body>
+        <h1 style="font-family: fantasy"><strong>CAPITOLO 1: LA FORESTA</strong></h1>
+        <audio autoplay loop>
+            <source src="found.mp3" type="audio/mpeg">
+        </audio> 
+        <script>
+            document.addEventListener("click", function playMusic() {
+                const audio = document.querySelector("audio");
+                audio.play();
+                document.removeEventListener("click", playMusic);
+            });
+        </script>
+        <p>Ti gurdi intorno, la foresta è buia, piena di alberi, non sei sicuro se il buio è dovuto al fatto che sia notte o al fatto che le fronde degli alberi sono così fitte da non far filtrare neanche un goccio di luce solare,
+        la cosa importante da sapere è che non riesci neanche a capire che ore sono, ricapitolando, non sai chi sei, non sai dove sei e non sai che ore sono...ti domandi come è possibile che non stai andando in escendescenze, 
+        sicuro è che hai dei nervi d'acciaio, forse la prima e unica cosa che sai di te stesso, apparte beh si, la capanna e il mostro, che sai su questo mostro?...beh nulla, certo non è una nuova notizia questa.<br>
+        ti guardi meglio intorno e noti come nelle fitte frasche si apre un passaggio tra gli alberi, un percorso da seguire?<br>
+        Non trovando motivazioni per cui non seguire il percorso e riflettendo che nonseguire il percorso potrebbe effettevamente portare alla tua morte, segui il percorso.<br>
+        andando sempre e sempre avanti continui ad entrare sempre di più nel cuore della forsta, dove tutto diventa sempre più buio e...distorto?<br>
+        Noti come pian piano che vai avanti nel percorso gli alberi iniziano a contorcersi e assume forme assurde, sicuramente non un buon presaggio, inizia a domendarti se seguire il percorso è stat una buona idea, magari se andavi dalla parte opposta riuscivi ad uscire da questa foresta.<br>
+        Ti guardi indietro e non è ancora troppo tardi, potresti ancora fare retromarcia e provare ad uscire, ma una piccola parte della tua testa ti fa ricordare il tuo obbiettivo, al centro della forsta c'è una capanna e nella capanna c'è un mostro, devi uccidere il mostro.<br>
+        Che fare?<br>
+        Proseguire o tornare indietro?</p>
+        <button type="button" onclick="window.location.href='wip.html';">Proseguo</button>
+        <button type="button" onclick="window.location.href='wip.html';">Torno indietro</button>
+    </body>
+</html>
